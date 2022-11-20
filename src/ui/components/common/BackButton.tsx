@@ -5,6 +5,7 @@ import { Button } from 'rsuite';
 
 interface Props {
   urlBack: string;
+  title: string;
 }
 
 export const BackButton: React.FC<Props> = (props) => {
@@ -12,7 +13,7 @@ export const BackButton: React.FC<Props> = (props) => {
     <div style={{ marginTop: '20px' }}>
       <Link to={props.urlBack}>
         <Button appearance="subtle" style={{ color: 'black' }}>
-          <ArowBack /> Back
+          <ArowBack /> {props.title}
         </Button>
       </Link>
     </div>

@@ -8,6 +8,7 @@ import { SignUp } from '../views/auth/SignUp';
 import { SignUpAbout } from '../views/auth/SignUpAbout';
 import { TermOfService } from '../views/TermOfService';
 import { MentorDetail } from '../views/MentorDetail';
+import { MentorSchedule } from '../views/MentorSchedule';
 
 export const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ export const router = createBrowserRouter([
           {
             path: '/:id/mentor-detail',
             element: <MentorDetail />,
+          },
+          {
+            path: '/:id/mentor-schedule',
+            element: <MentorSchedule />,
           },
         ],
       },

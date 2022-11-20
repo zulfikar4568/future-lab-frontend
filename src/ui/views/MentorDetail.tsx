@@ -5,7 +5,7 @@ export const MentorDetail: React.FC = () => {
   return (
     <>
       <div className="container mentor-detail">
-        <BackButton urlBack={'/'} />
+        <BackButton urlBack={'/'} title={'Back'} />
         <div className="mentor-detail-control">
           <Avatar
             size="lg"
@@ -14,7 +14,7 @@ export const MentorDetail: React.FC = () => {
             alt="@SevenOutman"
           />
           <h4>Zulfikar Isnaen</h4>
-          <Button appearance="primary" block>
+          <Button appearance="primary" block href="/12/mentor-schedule">
             Schedule a call
           </Button>
         </div>
