@@ -28,7 +28,7 @@ export const MentorSchedule: React.FC = () => {
           </Form.Group>
           <Form.Group>
             <ButtonToolbar>
-              <Button appearance="primary" block>
+              <Button appearance="primary" block href="/12/mentor-status">
                 Schedule a call
               </Button>
             </ButtonToolbar>

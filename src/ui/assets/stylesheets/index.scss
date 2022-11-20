@@ -1,7 +1,8 @@
-@import './_global.scss';
-@import './_auth.scss';
-@import './_term-of-service.scss';
+@import './global';
+@import './auth';
+@import './term-of-service';
 @import './home';
 @import './session';
 @import './mentor-detail';
 @import './mentor-schedule';
+@import './mentor/mentor-status';
