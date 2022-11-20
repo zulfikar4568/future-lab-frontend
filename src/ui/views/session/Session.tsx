@@ -1,5 +1,5 @@
 import React from 'react';
-import { SessionList } from '../components/session/SessionList';
+import { SessionList } from '../../components/session/SessionList';
 
 interface IDataDetails {
   name: string;

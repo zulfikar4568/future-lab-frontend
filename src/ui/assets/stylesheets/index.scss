@@ -2,7 +2,8 @@
 @import './auth';
 @import './term-of-service';
 @import './mentor/home';
-@import './session';
+@import './session/session';
+@import './session/join-session';
 @import './mentor/mentor-detail';
 @import './mentor/mentor-schedule';
 @import './mentor/mentor-status';

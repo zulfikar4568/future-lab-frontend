@@ -56,7 +56,11 @@ export const SessionList: React.FC<Props> = (props) => {
                       </Col>
                       <Col xs={12}>
                         <div className="show-col">
-                          <Button appearance="primary" block>
+                          <Button
+                            appearance="primary"
+                            block
+                            href="/123/session-join"
+                          >
                             Join Room
                           </Button>
                         </div>

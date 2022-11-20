@@ -3,13 +3,14 @@ import { DashboardLayout } from '../layouts/DashboardLayout';
 import { Root } from '../Root';
 import { Home } from '../views/mentor/Home';
 import { SignIn } from '../views/auth/SignIn';
-import { Session } from '../views/Session';
+import { Session } from '../views/session/Session';
 import { SignUp } from '../views/auth/SignUp';
 import { SignUpAbout } from '../views/auth/SignUpAbout';
 import { TermOfService } from '../views/TermOfService';
 import { MentorDetail } from '../views/mentor/MentorDetail';
 import { MentorSchedule } from '../views/mentor/MentorSchedule';
 import { MentorStatus } from '../views/mentor/MentorStatus';
+import { JoinSession } from '../views/session/JoinSession';
 
 export const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
           {
             path: '/session',
             element: <Session />,
+          },
+          {
+            path: '/:id/session-join',
+            element: <JoinSession />,
           },
           {
             path: '/term-of-service',
