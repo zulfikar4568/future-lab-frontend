@@ -1,9 +1,9 @@
 import React from 'react';
 import { Navigate } from 'react-router-dom';
 import { Col, FlexboxGrid } from 'rsuite';
-import { LoginForm } from '../../components/auth/LoginForm';
+import { SignInForm } from '../../components/auth/SignInForm';
 
-export const Login: React.FC = () => {
+export const SignIn: React.FC = () => {
   const logged = false;
 
   if (logged) {
@@ -23,7 +23,7 @@ export const Login: React.FC = () => {
           md={10}
           className="auth-content"
         >
-          <LoginForm />
+          <SignInForm />
         </FlexboxGrid.Item>
       </FlexboxGrid>
     </>

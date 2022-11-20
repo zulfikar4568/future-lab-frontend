@@ -3,8 +3,9 @@ import { Button, ButtonToolbar, Form, InputGroup } from 'rsuite';
 import EyeIcon from '@rsuite/icons/legacy/Eye';
 import EyeSlashIcon from '@rsuite/icons/legacy/EyeSlash';
 import { Link } from 'react-router-dom';
+import ImgLogo from '../../assets/images/future-lab.svg';
 
-export const LoginForm: React.FC = () => {
+export const SignInForm: React.FC = () => {
   const [visible, setVisible] = React.useState(false);
 
   const handleChange = () => {
@@ -13,7 +14,8 @@ export const LoginForm: React.FC = () => {
 
   return (
     <>
-      <h2>Login into FutureLab</h2>
+      <img src={ImgLogo} width={200} />
+      <h3>Welcome to FutureLab</h3>
       <Form fluid>
         <Form.Group controlId="email-1">
           <Form.ControlLabel>Email</Form.ControlLabel>

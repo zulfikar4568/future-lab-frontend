@@ -3,6 +3,7 @@ import { Button, ButtonToolbar, Form, InputGroup } from 'rsuite';
 import EyeIcon from '@rsuite/icons/legacy/Eye';
 import EyeSlashIcon from '@rsuite/icons/legacy/EyeSlash';
 import { Link } from 'react-router-dom';
+import ImgLogo from '../../assets/images/future-lab.svg';
 
 export const SignUpForm: React.FC = () => {
   const [visiblePass1, setVisiblePass1] = React.useState(false);
@@ -18,7 +19,8 @@ export const SignUpForm: React.FC = () => {
 
   return (
     <>
-      <h2>Getting Started</h2>
+      <img src={ImgLogo} width={200} />
+      <h3>Getting Started</h3>
       <p>
         Already register? <Link to="/signin">Sign in here</Link>
       </p>

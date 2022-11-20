@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import { DashboardLayout } from '../layouts/DashboardLayout';
 import { Root } from '../Root';
 import { Home } from '../views/Home';
-import { Login } from '../views/auth/Login';
+import { SignIn } from '../views/auth/SignIn';
 import { Session } from '../views/Session';
 import { SignUp } from '../views/auth/SignUp';
 import { SignUpAbout } from '../views/auth/SignUpAbout';
@@ -14,7 +14,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: '/signin',
-        element: <Login />,
+        element: <SignIn />,
       },
       {
         path: '/signup',
