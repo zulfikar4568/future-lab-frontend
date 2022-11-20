@@ -1,0 +1,31 @@
+.mentor-detail {
+  justify-content: center;
+  width: 350px;
+
+  .mentor-detail-info {
+    h6 {
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  .mentor-detail-control {
+    text-align: center;
+    margin-top: 50px;
+
+    h4 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .rs-avatar {
+      width: 150px;
+      height: 150px;
+      
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+}

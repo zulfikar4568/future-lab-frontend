@@ -7,6 +7,7 @@ import { Session } from '../views/Session';
 import { SignUp } from '../views/auth/SignUp';
 import { SignUpAbout } from '../views/auth/SignUpAbout';
 import { TermOfService } from '../views/TermOfService';
+import { MentorDetail } from '../views/MentorDetail';
 
 export const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ export const router = createBrowserRouter([
           {
             path: '/term-of-service',
             element: <TermOfService />,
+          },
+          {
+            path: '/:id/mentor-detail',
+            element: <MentorDetail />,
           },
         ],
       },

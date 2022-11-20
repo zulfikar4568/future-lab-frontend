@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Avatar, Col, FlexboxGrid, Panel } from 'rsuite';
 
 interface Props {
@@ -20,8 +21,9 @@ export const MentorList: React.FC<Props> = (props) => {
                   src="https://avatars.githubusercontent.com/u/12592949"
                   alt="@SevenOutman"
                 />
-
-                <h6>{item}</h6>
+                <Link to={`${12}/mentor-detail`}>
+                  <h6>{item}</h6>
+                </Link>
               </div>
             </FlexboxGrid.Item>
           ))}
