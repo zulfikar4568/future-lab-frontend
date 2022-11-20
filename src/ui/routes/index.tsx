@@ -1,14 +1,14 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { DashboardLayout } from '../layouts/DashboardLayout';
 import { Root } from '../Root';
-import { Home } from '../views/Home';
+import { Home } from '../views/mentor/Home';
 import { SignIn } from '../views/auth/SignIn';
 import { Session } from '../views/Session';
 import { SignUp } from '../views/auth/SignUp';
 import { SignUpAbout } from '../views/auth/SignUpAbout';
 import { TermOfService } from '../views/TermOfService';
-import { MentorDetail } from '../views/MentorDetail';
-import { MentorSchedule } from '../views/MentorSchedule';
+import { MentorDetail } from '../views/mentor/MentorDetail';
+import { MentorSchedule } from '../views/mentor/MentorSchedule';
 
 export const router = createBrowserRouter([
   {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Input, InputGroup } from 'rsuite';
 import { Search } from '@rsuite/icons';
-import { MentorList } from '../components/home/MentorList';
+import { MentorList } from '../../components/home/MentorList';
 
 export const Home: React.FunctionComponent = () => {
   const data = ['Zulfikar Isnaen', 'Jack', 'Alex John', 'Sandra'];

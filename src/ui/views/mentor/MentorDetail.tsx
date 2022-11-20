@@ -1,5 +1,5 @@
 import { Avatar, Button } from 'rsuite';
-import { BackButton } from '../components/common/BackButton';
+import { BackButton } from '../../components/common/BackButton';
 
 export const MentorDetail: React.FC = () => {
   return (

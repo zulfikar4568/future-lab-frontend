@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, ButtonToolbar, DatePicker, Form } from 'rsuite';
-import { BackButton } from '../components/common/BackButton';
+import { BackButton } from '../../components/common/BackButton';
 
 export const MentorSchedule: React.FC = () => {
   return (
