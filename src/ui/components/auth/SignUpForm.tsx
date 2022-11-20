@@ -67,7 +67,7 @@ export const SignUpForm: React.FC = () => {
         </Form.Group>
         <Form.Group>
           <ButtonToolbar>
-            <Button appearance="primary" size="lg" block>
+            <Button appearance="primary" size="lg" block href="/signup/about">
               Sign Up
             </Button>
           </ButtonToolbar>
