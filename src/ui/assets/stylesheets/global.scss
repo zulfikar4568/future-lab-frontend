@@ -1,10 +1,10 @@
 ::selection {
   color: #fff;
-  background-color: var(--corvid-background-color,rgba(var(--bg,var(--color_17)),var(--alpha-bg,1)));
+  background-color: rgb(31, 157, 33);
 }
 
-:root {
-  font-family: 'DM Sans', sans-serif;
+#root {
+  font-family: 'DM Sans', sans-serif !important;
 }
 
 body {
