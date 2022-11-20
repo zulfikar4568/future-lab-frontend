@@ -6,6 +6,7 @@ import { Login } from '../views/auth/Login';
 import { Session } from '../views/Session';
 import { SignUp } from '../views/auth/SignUp';
 import { SignUpAbout } from '../views/auth/SignUpAbout';
+import { TermOfService } from '../views/TermOfService';
 
 export const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ export const router = createBrowserRouter([
           {
             path: '/session',
             element: <Session />,
+          },
+          {
+            path: '/term-of-service',
+            element: <TermOfService />,
           },
         ],
       },

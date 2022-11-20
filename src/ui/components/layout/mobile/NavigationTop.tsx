@@ -1,29 +1,18 @@
 import React from 'react';
-import { Navbar, Nav, Avatar, Button } from 'rsuite';
-import HomeIcon from '@rsuite/icons/legacy/Home';
-import ImgLogo from '../../assets/images/future-lab.svg';
-import '@/ui/assets/stylesheets/layout/_navbar.scss';
+import { Avatar, Button, Nav, Navbar } from 'rsuite';
+import ImgLogo from '../../../assets/images/future-lab.svg';
 
-export const NavigationBar: React.FC = () => {
+export const NavigationTop: React.FC = () => {
   const logged = true;
 
   return (
     <>
-      <Navbar appearance="default" className="container-navbar">
+      <Navbar appearance="default" className="top-mobile-navigation">
         <Navbar.Brand>
           <img src={ImgLogo} width={100} />
         </Navbar.Brand>
         {logged ? (
           <>
-            <Nav>
-              <Nav.Item href="/" icon={<HomeIcon />}>
-                Home
-              </Nav.Item>
-              <Nav.Item href="/session">
-                <span className="material-symbols-outlined">date_range</span>{' '}
-                Sessions
-              </Nav.Item>
-            </Nav>
             <Nav pullRight>
               <Nav.Menu
                 title={

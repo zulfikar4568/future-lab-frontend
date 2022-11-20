@@ -72,7 +72,7 @@ export const SignUpForm: React.FC = () => {
         </Form.Group>
         <p>
           By signing up, you agree to FutureLab's{' '}
-          <Link to="/">terms and conditions</Link>
+          <Link to="/term-of-service">terms and conditions</Link>
         </p>
       </Form>
     </>
