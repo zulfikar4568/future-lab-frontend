@@ -27,7 +27,7 @@ export const SessionList: React.FC<Props> = (props) => {
       <Panel header={props.title}>
         <FlexboxGrid justify="start" align="middle">
           {props.data.map((item, index) => (
-            <FlexboxGrid.Item key={index} as={Col} colspan={24} md={12}>
+            <FlexboxGrid.Item key={index} as={Col} colspan={24} md={11}>
               <div className="session-content">
                 <Avatar
                   size="lg"
