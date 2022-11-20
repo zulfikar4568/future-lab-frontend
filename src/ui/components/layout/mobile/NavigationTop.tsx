@@ -1,6 +1,8 @@
 import React from 'react';
 import { Avatar, Button, Nav, Navbar } from 'rsuite';
 import ImgLogo from '../../../assets/images/future-lab.svg';
+import UserInfoIcon from '@rsuite/icons/UserInfo';
+import ExitIcon from '@rsuite/icons/Exit';
 
 export const NavigationTop: React.FC = () => {
   const logged = true;
@@ -21,8 +23,8 @@ export const NavigationTop: React.FC = () => {
                   </Avatar>
                 }
               >
-                <Nav.Item>Profile</Nav.Item>
-                <Nav.Item>Logout</Nav.Item>
+                <Nav.Item icon={<UserInfoIcon />}>Profile</Nav.Item>
+                <Nav.Item icon={<ExitIcon />}>Logout</Nav.Item>
               </Nav.Menu>
             </Nav>
           </>

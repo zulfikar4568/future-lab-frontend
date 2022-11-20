@@ -3,6 +3,8 @@ import { Navbar, Nav, Avatar, Button } from 'rsuite';
 import HomeIcon from '@rsuite/icons/legacy/Home';
 import ImgLogo from '../../assets/images/future-lab.svg';
 import '@/ui/assets/stylesheets/layout/_navbar.scss';
+import UserInfoIcon from '@rsuite/icons/UserInfo';
+import ExitIcon from '@rsuite/icons/Exit';
 
 export const NavigationBar: React.FC = () => {
   const logged = true;
@@ -32,8 +34,8 @@ export const NavigationBar: React.FC = () => {
                   </Avatar>
                 }
               >
-                <Nav.Item>Profile</Nav.Item>
-                <Nav.Item>Logout</Nav.Item>
+                <Nav.Item icon={<UserInfoIcon />}>Profile</Nav.Item>
+                <Nav.Item icon={<ExitIcon />}>Logout</Nav.Item>
               </Nav.Menu>
             </Nav>
           </>
