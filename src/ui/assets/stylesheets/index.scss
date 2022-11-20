@@ -1,8 +1,8 @@
 @import './global';
 @import './auth';
 @import './term-of-service';
-@import './home';
+@import './mentor/home';
 @import './session';
-@import './mentor-detail';
-@import './mentor-schedule';
+@import './mentor/mentor-detail';
+@import './mentor/mentor-schedule';
 @import './mentor/mentor-status';
