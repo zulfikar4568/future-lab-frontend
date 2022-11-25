@@ -1,0 +1,48 @@
+.mentor {
+  margin-top: 10px;
+  padding: 30px;
+  .collapsed {
+    font-weight: 600 !important;
+  }
+
+  .rs-panel {
+    .rs-panel-header {
+      padding-left: 0;
+    }
+    .rs-panel-body {
+      padding: 0;
+
+      .rs-flex-box-grid {
+        .rs-flex-box-grid-item {
+          .mentor-content {
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            a {
+              text-decoration: none;
+              color: black;
+              h6 {
+                margin-left: 20px;
+              }
+            }
+            a:hover {
+              color: rgb(71, 126, 222);
+            }
+          }
+        }
+      }
+    }
+    .rs-list-item, .rs-list {
+     box-shadow: 0 0 0 0;
+    }
+  }
+
+}
+
+@media (min-width: 720px) {
+  .mentor {
+    .rs-input-group {
+      width: 400px;
+    }
+  }
+}

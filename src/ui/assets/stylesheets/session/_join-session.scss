@@ -1,0 +1,30 @@
+.join-session {
+  width: 330px;
+  margin-bottom: 80px;
+
+  .join-session-info {
+    text-align: center;
+
+
+    img {
+      border-radius: 10px;
+    }
+
+    img, h4, .rs-avatar, p, .join-session-control {
+      margin-top: 20px
+    }
+
+    .rs-row {
+      .rs-col {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+      }
+    }
+
+    h6 {
+      margin-top: 20px;
+      font-weight: 300;
+      color: rgb(104, 155, 243);
+    }
+  }
+}
